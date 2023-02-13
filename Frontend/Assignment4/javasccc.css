@@ -1,0 +1,83 @@
+.header{
+    background-color: rgb(71, 148, 230);
+    float:center;
+    height:60%;
+    margin-left:13%;
+    margin-right:10%;
+    text-align:center;
+}
+.header2{
+    padding-bottom: 5px;
+}
+/*.listall{
+   background-color: #ADB2AB;
+   color:black;
+   float:center;
+
+}*/
+ul li{
+    
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    float:center;
+    height:80%;
+
+    
+}
+/*.checked img{
+    opacity:0;
+    color:orange;
+    background-color:black;
+}
+.li img{
+    opacity:0;
+    color:black;
+}
+*/
+#activities{
+    float:center;
+    height:50%;
+    margin-left: 10%;
+    margin-right:10%;
+  
+}
+ul li{
+    padding: 10px;
+    padding-left:20%;
+    text-align:center;
+    background-color:grey;
+}
+/*.checked{
+    background-color:green;
+    color:white;
+}
+/*.unchecked{
+    background-color:white;
+    color:blue;
+}
+h4{
+    float:center;
+}
+.body{
+    height:80%;
+}*/
+ul li.checked::before {
+    content: '';
+    /* position: absolute; */
+    border-color:white;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+    display:flex;
+    /* margin-right: 10px; */
+
+  }
+  ul li.checked {
+    background: green;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
