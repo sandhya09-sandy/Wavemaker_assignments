@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./Calculator.css">
+        <link rel="stylesheet" href="./bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="boot111.css">
+    </head>
+    <body>
+        <center>
+            <h2 style="color:red">A Simple Calculator</h2>
+            <div class="calci">
+                <table class="calci1">
+                    
+                    <tr><td colspan="4"><input type="text" class="display" style="margin-left:3px;margin-right:3px"></td></tr>
+                    
+                    <div>
+                        <tr><td colspan="4"><input type="text" class="result" style="margin-left:3px;margin-right:3px"></td></tr>
+                    </div>
+                    <div class="col-sm-4">
+                    <tr>
+                        <td><button type="button" name="btn"  value="1" class="buttons" onclick="num('1')">1</button></td>
+                        <td><button type="button" name="btn"  value="2" class="buttons" onclick="num('2')">2</button></td>
+                        <td><button type="button" name="btn"  value="3" class="buttons" onclick="num('3')">3</button></td>
+                        <td><button type="button" name="btn1" value="+" class="buttons2" onclick="num('+')">+</button></td>  
+                    </tr>
+                    </div>
+                    <div class="col-sm-3">
+                    <tr>
+                        <td><button type="button"  name="btn"  class="buttons" onclick="num('4')">4</button></td>
+                        <td><button type="button"  name="btn"  class="buttons" onclick="num('5')">5</button></td>
+                        <td><button type="button"  name="btn"  class="buttons" onclick="num('6')">6</button></td>
+                        <td><button type="button"  name="btn1"  class="buttons2" onclick="num('-')">-</button></td>  
+                    </tr>
+                    </div>
+                    <div class="col-sm-3">
+                    <tr>
+                        <td><button type="button" value="7" name="btn"  class="buttons" onclick="num('7')">7</button></td>
+                        <td><button type="button" value="8" name="btn"  class="buttons" onclick="num('8')">8</button></td>
+                        <td><button type="button" value="9" name="btn"  class="buttons" onclick="num('9')">9</button></td>
+                        <td><button type="button" value="*" name="btn1"  class="buttons2" onclick="num('*')">*</td>
+                    </tr>
+                    </div>
+                    <div class="col-sm-3">
+                    <tr>
+                        <td><button type="button" value="." name="btn"  class="buttons" onclick="num('.')">.</button></td>
+                        <td><button type="button" value="0" name="btn"  class="buttons" onclick="num('0')">0</button></td>
+                        <td><button type="button" value="00" name="btn"  class="buttons" onclick="num('00')">00</button></td> 
+                        <td colspan="1"><button type="button" value="=" id="buttons1" onclick="calculate()">=</button></td>
+                        
+                    </tr>
+                    </div>
+                    <div class="col-sm-3">
+                    <tr>
+                        <td><button type="button" value="/" name="btn1"  class="buttons2" onclick="num('/')">/</button></td>
+                        <td><button type="button" value="%" name="btn1"  class="buttons2" onclick="num('%')">%</button></td>
+                        <td><button type="button" value="<" name="btn1"  class="buttons2" onclick="BACKSPACE('<')"><img src="./icons8-cancel-last-digit-25.png"></button></td>
+                        <td colspan="2"><button  type="button" value="AC" id="buttons1" onclick="clean()">AC</button></td></tr>
+                    </div>
+                </table>
+            </div>
+        </center>
+        <script src="./Calculator.js">
+        </script>
+    </body>
+</html>
