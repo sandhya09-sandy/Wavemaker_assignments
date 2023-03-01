@@ -1,0 +1,86 @@
+body{
+     background-color:lightblue;
+}
+.calci{
+    background-color:B2beb5;
+    width:40%;
+    margin:0;
+    border: 1px black solid;
+    padding:20px,20px,20px,20px;
+    align-items: center;
+    height:80%;
+    border-top-width: 0cap;
+}
+.calci1{
+    border: 1px black;
+    border-style: groove;
+    padding: 10px,10px,10px,10px;
+    align-items: center;
+    border-top-width: 0cap;
+    text-align: center;
+    height:70%;
+    width:60px;
+    margin-top:10%;
+    background-color:lightslategray;
+
+
+}
+.buttons
+{
+    border-radius: 30px;
+    box-shadow:-8px,-8px,15px rgba(255,255,255,0.1) 5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    height:30px;
+    width:40px;
+    background-color: black;
+    color:white;
+}
+#buttons1
+{
+    border-radius: 30px;
+    box-shadow:-8px,-8px,15px rgba(255,255,255,0.1) 5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    background-color: green;
+    color:white;
+    height:30px;
+    width:50px;
+}
+.buttons2
+{
+    border-radius: 30px;
+    box-shadow:-8px,-8px,15px rgba(255,255,255,0.1) 5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    height:30px;
+    width:40px;
+    background-color:azure;
+    color:black;
+
+}
+.display
+{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px,0;
+    padding:5px.5px,5px,5px;
+}
+.display input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 20px;
+}
+.result{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px,0;
+    padding:5px.5px,5px,5px;
+}
+.result input{
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 20px;
+}
+/*button{
+    width:30%;
+}*/
